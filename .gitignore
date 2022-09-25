@@ -1,5 +1,10 @@
 # dependencies
 node_modules/
 
+# misc
+.DS_Store
+.idea
+junit.xml
+
 # production
 dist/
