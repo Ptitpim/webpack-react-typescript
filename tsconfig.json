@@ -1,12 +1,13 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
-    "target": "esnext",
-    "noImplicitAny": true,
-    "module": "es6",
-    "jsx": "react-jsx",
     "allowJs": true,
-    "moduleResolution": "node"
+    "baseUrl": ".",
+    "jsx": "react-jsx",
+    "module": "es6",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "noImplicitAny": true,
+    "target": "esnext"
   },
   "include": [
     "src/**/*"
